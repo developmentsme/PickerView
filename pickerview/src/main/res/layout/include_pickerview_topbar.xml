@@ -27,8 +27,9 @@
         app:layout_constraintTop_toTopOf="parent"
         android:gravity="center_vertical|start"
         android:paddingLeft="@dimen/pickerview_topbar_paddingleft"
-        android:paddingRight="@dimen/pickerview_topbar_paddingright"
-        android:text="@string/pickerview_cancel"
+        android:paddingRight="@dimen/pickerview_topbar_paddingright"    
+        android:textAllCaps="false"
+        android:text="Cancel"
         android:textColor="@drawable/selector_pickerview_btn"
         android:textSize="@dimen/pickerview_topbar_btn_textsize" />
 
